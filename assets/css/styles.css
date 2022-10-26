@@ -1,15 +1,83 @@
 :root {
-    --font-family: 'Roboto', sans-serif;
+    --font: 'Roboto', sans-serif;
     --color-footer:#e32213;
     --color-text:#ffffff;
 }
 
-.jump-line {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight:bold;
+    background-color: var(--color-footer);
+    display:grid;
+    grid-template-columns: 33% 43% 1fr;
+    padding: 30px;
+    overflow:hidden;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+
+.footer-1fr{
+    color:var(--color-text);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+}
+
+.footer-1fr .img-logo{
+    height: 65px;
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+.footer-1fr p{
+    margin-bottom: 20px;
+}
+
+
+
+.footer-2fr{
+    border-left: solid 4px var(--color-text);
+    border-right: solid 4px var(--color-text);
+    color:var(--color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.jump-line{
     display:block;
+    margin-bottom: 10px;
+}
+
+
+.footer-3fr{
+    color:var(--color-text);
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-3fr p{
+    justify-items: center;
+    margin-bottom: 20px;
+    margin-left: 12px;
 }
 
 .logo-networks{
     width: 32px;
     height: 32px;
+    margin-left: 8px;
 }
+
+
+
+
 
