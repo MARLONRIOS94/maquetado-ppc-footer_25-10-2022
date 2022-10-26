@@ -1,0 +1,15 @@
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --color-footer:#e32213;
+    --color-text:#ffffff;
+}
+
+.jump-line {
+    display:block;
+}
+
+.logo-networks{
+    width: 32px;
+    height: 32px;
+}
+
