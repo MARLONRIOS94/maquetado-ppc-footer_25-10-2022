@@ -60,7 +60,7 @@
 
 .footer-3fr{
     color:var(--color-text);
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -68,13 +68,13 @@
 .footer-3fr p{
     justify-items: center;
     margin-bottom: 20px;
-    margin-left: 12px;
+    margin-left: 5px;
 }
 
 .logo-networks{
-    width: 40px;
-    height: 40px;
-    margin-right: 14px;
+    width: 37px;
+    height: 37px;
+    margin-right: 12px;
     background-color:var(--color-text);
     border-radius:50%;
 }
