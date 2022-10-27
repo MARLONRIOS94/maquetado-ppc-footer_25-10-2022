@@ -16,7 +16,7 @@
     background-color: var(--color-footer);
     display:grid;
     grid-template-columns: 33% 43% 1fr;
-    padding: 30px;
+    padding: 25px;
     position:absolute;
     width: 95.5%;
     bottom: 0;
